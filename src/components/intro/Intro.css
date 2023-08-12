@@ -1,0 +1,29 @@
+.intro {
+  background-color: #151515;
+  display: flex;
+}
+
+.intro .left {
+  flex: 6;
+  overflow: hidden;
+}
+
+.intro .left .imgContainer {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.intro .left .imgContainer img {
+  width: 100%; /* Adjust this value as needed */
+  height: auto;
+  max-height: 100%;
+}
+
+.intro .right {
+  flex: 7;
+  position: relative;
+}
+
+.intro .right .wrapper {
+}

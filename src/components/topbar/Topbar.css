@@ -1,0 +1,57 @@
+.topbar {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(21, 21, 21, 255); /* Use rgba for transparency */
+  position: fixed;
+  top: 0;
+  color: rgb(235, 232, 6);
+  z-index: 20;
+}
+
+.topbar .wrapper {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar .left .logo {
+  font-size: 32px;
+  font-weight: 450;
+  text-decoration: none;
+  color: rgb(235, 232, 6);
+}
+
+.topbar .right .listings ul {
+  display: flex;
+  gap: 40px;
+}
+
+.topbar .right .listings a {
+  text-decoration: none;
+  color: rgb(235, 232, 6);
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.topbar .right .listings ul li {
+  position: relative;
+}
+
+.topbar .right .listings ul li::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.topbar .right .listings ul li:hover::before {
+  background-color: rgb(235, 232, 6);
+  transform: scaleX(1);
+}
