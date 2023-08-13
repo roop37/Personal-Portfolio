@@ -13,12 +13,13 @@ export default function Topbar() {
         <div className="right">
           <div className="listings">
             <ul>
-              <a href="#portfolio">
-                <li>Portfolio</li>
-              </a>
               <a href="#projects">
                 <li>Projects</li>
               </a>
+              <a href="#portfolio">
+                <li>Portfolio</li>
+              </a>
+
               <a href="#testimonials">
                 <li>Testimonials</li>
               </a>

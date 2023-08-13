@@ -14,7 +14,7 @@
   display: none;
 }
 
-.App .sections * {
+.App .sections > * {
   width: 100%;
   height: calc(100vh - 70px);
   scroll-snap-align: start;

@@ -4,7 +4,7 @@
 }
 
 .intro .left {
-  flex: 6;
+  flex: 5;
   overflow: hidden;
 }
 
@@ -21,9 +21,76 @@
 }
 
 .intro .right {
-  flex: 7;
+  flex: 5;
   position: relative;
 }
 
 .intro .right .wrapper {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro .right .wrapper h1 {
+  color: rgb(235, 232, 6);
+  font-size: 60px;
+}
+
+.intro .right .wrapper h2 {
+  color: white;
+  font-size: 35px;
+}
+.intro .right .wrapper h3 {
+  color: rgb(190, 190, 190);
+  font-size: 30px;
+}
+
+.intro .right .wrapper * {
+  height: unset;
+}
+
+.App .sections .right .scroll-icon__container {
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  animation: jump 3s infinite;
+}
+
+.App .sections .scroll-icon__container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro .right .wrapper h3 .cursor {
+  animation: cursorAnimation 1s infinite;
+}
+
+@keyframes cursorAnimation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes jump {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-20px); /* Adjust the jump height as needed */
+  }
 }

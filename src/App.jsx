@@ -12,8 +12,8 @@ function App() {
       <Topbar />
       <div className="sections">
         <Intro />
-        <Portfolio />
         <Projects />
+        <Portfolio />
         <Testimonials />
         <Contact />
       </div>
