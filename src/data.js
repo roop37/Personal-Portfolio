@@ -1,164 +1,101 @@
-export const featuredPortfolio = [
+export const reactPortfolio = [
   {
     id: 1,
-    title: "Social Media App",
+    title: "E-Commerce Functionality",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    subtitle:
+      "A Ecommerce website which has all the real-life functionalities like Filtering and Searching through products.",
+    link: "https://github.com/roop37/searching-filtering-react-ecommerce-website-react",
   },
   {
     id: 2,
-    title: "Rampa UI Design",
+    title: "Movie Watchlist",
     img: "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 3,
-    title: "E-commerce Web Design",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 4,
-    title: "Relax Mobile App",
-    img: "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 5,
-    title: "Hero Web Design",
-    img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 6,
-    title: "Banking App",
-    img: "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+    link: "https://github.com/roop37/Basic-React-Component",
+    subtitle:
+      "Created dummy list of movies and we can delete any movies from that list.Bootstrap is used to style the Project.",
   },
 ];
 
-export const webPortfolio = [
+export const flutterPortfolio = [
   {
     id: 1,
-    title: "Web Social Media App",
+    title: "Vehicle Tracking Application",
     img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    subtitle:
+      "During the Internship at Traxsmart,We have built a IOS/Android application to track GPS devices and provide analytics about it",
+    link: "https://github.com/roop37/Vehicle-Tracking-application",
   },
   {
     id: 2,
-    title: "Web Rampa UI Design",
+    title: "Food Dilivary App",
     img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+    subtitle:
+      "Built a Complete Food Delivary Application for both IOS and Android and used Firebase to authenticate the User and Google Maps Apis to get the users current Location.",
+    link: "https://github.com/roop37/Food-Delivery-App",
   },
   {
     id: 3,
-    title: "Web E-commerce Design",
+    title: "Portfolio Application",
     img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+    subtitle:
+      "Created a Personal Portfolio that can run on both IOS and Android with a interesting UI/UX",
+    link: "https://github.com/roop37/Portfolio-App",
   },
   {
     id: 4,
-    title: "Web Relax App",
+    title: "Theme and Language",
     img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+    subtitle:
+      "Created a application to Change the Theme from Dark mode to Light Mode and Choose between Hindi and English using Redux",
+    link: "https://github.com/roop37/Theme-and-Language-Flutter-Redux",
   },
   {
     id: 5,
-    title: "Web Design",
+    title: "Basic guess the number Game",
     img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-  },
-  {
-    id: 6,
-    title: "Web Banking App",
-    img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+    subtitle:
+      "A basic Number game where the computer generates a random number and the user has to guess the number.",
+    link: "https://github.com/roop37/Guess-The-Number-Game-Application",
   },
 ];
 
-export const mobilePortfolio = [
+export const fullstackPortfolio = [
   {
     id: 1,
-    title: "Mobile Social Media App",
-    img: "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-  },
-  {
-    id: 2,
-    title: "Mobile Rampa UI Design",
-    img: "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 3,
-    title: "Mobile E-commerce Design",
-    img: "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 4,
-    title: "Mobile Relax App",
-    img: "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 5,
-    title: "Mobile Hero Design",
-    img: "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-  },
-  {
-    id: 6,
-    title: "Mobile Banking App",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    title: "Vehicle Tracking Application",
+    img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    subtitle:
+      "During the Internship at Traxsmart,We have built a IOS/Android application to track GPS devices and provide analytics about it",
+    link: "https://github.com/roop37/Vehicle-Tracking-application",
   },
 ];
 
-export const designPortfolio = [
+export const nodePortfolio = [
   {
     id: 1,
-    title: "Design Social Media App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 2,
-    title: "Design Rampa UI Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 3,
-    title: "Design E-commerce Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 4,
-    title: "Design Relax Mobile App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 5,
-    title: "Design Keser Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 6,
-    title: "Design Banking App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Vehicle Tracking Application",
+    img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+    subtitle:
+      "During the Internship at Traxsmart,We have built a IOS/Android application to track GPS devices and provide analytics about it",
+    link: "https://github.com/roop37/Vehicle-Tracking-application",
   },
 ];
 
-export const contentPortfolio = [
+export const uiuxPortfolio = [
   {
     id: 1,
-    title: "Content Social Media App",
+    title: "Itunes Clone",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    subtitle: "Created a clone of the ITunes Webpage using HTML&CSS",
+    link: "https://github.com/roop37/Music-Ecommerce-Website",
   },
   {
     id: 2,
-    title: "Content Rampa UI Design",
+    title: "Nike E-commerce Webpage",
+    subtitle:
+      "A Ecommerce website with interactive design and payment option using HTML,CSS and JS",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 3,
-    title: "Content E-commerce Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 4,
-    title: "Content Relax Mobile App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 5,
-    title: "Content Keser Web Design",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  },
-  {
-    id: 6,
-    title: "Content Banking App",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    link: "https://github.com/roop37/Nike-ecommerce-website",
   },
 ];

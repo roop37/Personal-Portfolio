@@ -1,0 +1,80 @@
+.project {
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+}
+
+.project h1 {
+  font-size: 50px;
+  color: rgb(235, 232, 6);
+}
+
+.project h3 {
+  color: white;
+  margin: 23px;
+}
+
+.project ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.project .container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project .container .item {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  border: 2px solid rgb(235, 232, 6);
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  position: relative;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.4s ease;
+  box-shadow: 0 4px 6px rgb(235, 232, 6, 0.3);
+}
+
+.project .container .item h2 {
+  font-size: 20px;
+}
+
+.project .container .item h3 {
+  display: none;
+}
+
+.project .container .item img {
+  width: 80%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.project .container .item:hover {
+  background-color: rgb(235, 232, 6);
+}
+
+.project .container .item:hover h2,
+.project .container .item:hover img {
+  display: none;
+}
+
+.project .container .item:hover h3 {
+  display: block;
+  color: black;
+}

@@ -62,7 +62,7 @@ export default function Intro() {
           </h3>
         </div>
         <div className="scroll-icon__container">
-          <a href="#portfolio">
+          <a href="#projects">
             <img src="assets/down.png" alt="" />
           </a>
         </div>
