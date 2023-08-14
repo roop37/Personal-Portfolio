@@ -16,7 +16,7 @@ export default function Topbar() {
               <a href="#projects">
                 <li>Projects</li>
               </a>
-              <a href="#portfolio">
+              <a href="#work">
                 <li>Portfolio</li>
               </a>
 

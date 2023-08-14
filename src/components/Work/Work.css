@@ -1,0 +1,82 @@
+.work {
+  background-color: #151515;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.work h1 {
+  position: absolute;
+  top: 20px;
+  z-index: 121;
+  font-size: 55px;
+  color: rgb(235, 232, 6);
+}
+
+.work .arrow {
+  position: absolute;
+  height: 55px;
+}
+
+.work .arrow.left {
+  left: 100px;
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.work .arrow.right {
+  right: 100px;
+
+  cursor: pointer;
+}
+
+.work .slider {
+  height: 400px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease-out;
+}
+
+.work .slider .container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work .slider .container .item {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(235, 232, 6);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.work .slider .container .item img {
+  height: 75%;
+  width: 65%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.work .slider .container .item .row {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.work .slider .container .item .row h2 {
+  color: black;
+}
+
+.work .slider .container .item .row a {
+  text-decoration: none;
+  color: rgb(93, 93, 93);
+}

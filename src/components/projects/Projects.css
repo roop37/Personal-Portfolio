@@ -8,6 +8,7 @@
 }
 
 .project h1 {
+  margin-top: 30px;
   font-size: 50px;
   color: rgb(235, 232, 6);
 }
@@ -23,6 +24,7 @@
   list-style: none;
   display: flex;
   gap: 60px;
+  margin-bottom: 25pnx;
 }
 
 .project .container {
@@ -56,6 +58,7 @@
 
 .project .container .item h3 {
   display: none;
+  overflow: hidden;
 }
 
 .project .container .item img {
@@ -76,5 +79,6 @@
 
 .project .container .item:hover h3 {
   display: block;
+  overflow: hidden;
   color: black;
 }

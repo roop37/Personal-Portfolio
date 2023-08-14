@@ -99,3 +99,42 @@ export const uiuxPortfolio = [
     link: "https://github.com/roop37/Nike-ecommerce-website",
   },
 ];
+
+export const Certificates = [
+  {
+    id: 1,
+    title: "React Basic",
+    img: "assets/reactBasic.jpg",
+    link: "https://www.hackerrank.com/certificates/ae2352f38812",
+  },
+  {
+    id: 2,
+    title: "AWS Cloud Developing",
+    img: "assets/awsdev.jpg",
+    link: "https://www.credly.com/badges/d3029d3f-414c-43fd-82d8-5f7fc8e76bd2/public_url",
+  },
+  {
+    id: 3,
+    title: "AWS Academy Introduction to Cloud Semester - 1",
+    img: "assets/awssem1.jpg",
+    link: "https://www.credly.com/badges/3c9408a4-50a4-4fe7-b0f8-fbe9e9cb5ab0/public_url",
+  },
+  {
+    id: 4,
+    title: "AWS Academy Introduction to Cloud Semester - 2",
+    img: "assets/awssem2.jpg",
+    link: "https://www.credly.com/badges/7004ec9b-3c3e-4dd0-b455-fad29cda98f4/public_url",
+  },
+  {
+    id: 5,
+    title: "Problem Solving Intermediate",
+    img: "assets/psint.jpg",
+    link: "https://www.hackerrank.com/certificates/iframe/027a9502d2bf",
+  },
+  {
+    id: 6,
+    title: "Problem Solving Basic",
+    img: "assets/psb.jpg",
+    link: "https://www.hackerrank.com/certificates/d24ab81d2ccf",
+  },
+];
