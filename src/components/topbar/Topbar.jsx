@@ -17,7 +17,7 @@ export default function Topbar() {
                 <li>Projects</li>
               </a>
               <a href="#work">
-                <li>Portfolio</li>
+                <li>Certificates</li>
               </a>
 
               <a href="#testimonials">
