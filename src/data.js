@@ -129,7 +129,7 @@ export const Certificates = [
     id: 5,
     title: "Problem Solving Intermediate",
     img: "assets/psint.jpg",
-    link: "https://www.hackerrank.com/certificates/iframe/027a9502d2bf",
+    link: "https://www.hackerrank.com/certificates/027a9502d2bf",
   },
   {
     id: 6,
